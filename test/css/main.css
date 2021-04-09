@@ -1,0 +1,235 @@
+
+
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+ }  
+
+ body {
+     color: #444444;
+     font-family: "돋움";
+ }
+
+ li {
+     list-style: none;
+     font-size: 15px; /* 테이블 폰트사이즈 */
+ }
+ 
+ .clear {
+     clear: both;
+ }
+
+ header {
+     height: 224px;
+ }
+
+ #top {
+     height: 62px;
+     background-color: black;
+ }
+
+ .box {
+     width: 1320px;
+     margin: 0 auto;
+     /*border: solid 1px red;*/
+ }
+
+ /* #main_menu{
+     
+     height: 80px;
+     border-top: solid 1px #e6e6e6;
+     border-bottom: solid 1px #e6e6e6;
+     
+ } */
+
+ /* section {
+     height: 400px;
+     border: solid 1px blue;
+ } 섹션 형식 틀 */
+
+ /* #content_box {
+     width: 1320px;
+     height: 350px;
+     margin: 0 auto;
+     border: solid 1px red; 
+ } 컨텐츠박스 형식 틀 */
+
+ 
+ #top_logo img {
+     width: 50px;
+     margin: 12px 0 0 20px; /*맨 위 나이키*/
+ }
+
+ #top_logo {
+     float: left;
+ } 
+
+ #top_ad {
+     float: left;
+     margin: 24px 0 0 10px;
+     font-size: 13px;
+     color: white;
+ }
+
+ #top_contents {
+    float: right;
+    margin: 24px 0 0 10px;
+    font-size: 13px;
+    color: white;
+ }
+
+ #top_contents a{
+    color: white;
+}
+
+ 
+ /*#search {
+     float: right;
+     background-image: url("images/search_icon.png");
+     background-size: 55px;
+     width: 50px;
+     height: 54px;
+     margin: 5px 180px 0 0;
+ }
+
+ #search input {
+     margin: 16px 0 0 60px;
+     height: 20px;
+     border: 0;
+ }
+
+ #search_icon {
+    float: right;
+ }
+
+ #search_icon img{
+     width: 30px;
+     margin: -50px 0 0 30px;
+ }*/
+
+ #cart {
+     float: right;
+     margin: 12px 0 0 20px;
+ }
+
+ #logo_image {
+     float: left;
+     margin: 30px 0 0 575px; /*메인로고 나이키*/
+ }
+
+ #main_menu {
+     padding: 25px 20px;
+     border-top: solid 1px #dddddd;
+     border-bottom: solid 1px #dddddd;
+     font-size: 12px;
+ }
+
+ #main_menu li {
+     display: inline;
+     margin-left: 30px;
+ }
+
+ #content_box {
+     padding-top: 50px;
+ }
+
+ #content_box h3 {
+      float: left;
+      margin-left: 610px;
+      font-size: 40px;
+ }
+
+ #content_box p {
+     float: right;
+     margin-top: 50px;
+ } 
+
+ .items {
+     width: 400px; /* 이미지 크기임 */
+     float: left;
+     margin: 50px 0 0 25px;
+ }
+
+ .items .a {
+     font-weight: bold;
+     color: black;
+     margin-top: 20px;
+ }
+
+ .items .b {
+     font-weight: bold;
+     color: black;
+     margin-top: 8px;
+ }
+
+ .items .b span {
+     color: red;
+ }
+
+ .items .c {
+     font-size: 12px;
+     margin-top: 20px;
+     line-height: 130%;
+ }
+
+ .items .d {
+     font-size: 12px;
+     margin-top: 25px;
+ }
+
+ .items .d span {
+     color: red;
+ }
+ 
+ footer {
+     margin-top: 100px;
+     border-top: solid 1px #dddddd;
+     background-color: black;
+     color: white;
+ }
+
+ #footer_menu {
+     padding-top: 30px;
+     padding-bottom: 50px;
+ }
+
+ #footer_menu li {
+     display: inline;
+     margin-left: 10px;
+     font-size: 13px;
+ }
+
+ #footer_menu h3 {
+     padding-top: 20px;
+     font-size: 13px;
+     font-weight: bold;
+ }
+
+ /*.footers {
+     float:left;
+     margin: 30px 0 50px 50px;
+     color: black;
+ }
+
+ .footers li {
+     margin-top: 8px;
+     font-size: 12px;
+ }
+
+ .footers span {
+     font-weight: bold;
+ }*/
+
+ .nav-item  {
+      font-size: 16px;
+      font-weight: bold;
+ }
+
+ .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+  } /*네비바 자동 드롭다운*/
+
+
