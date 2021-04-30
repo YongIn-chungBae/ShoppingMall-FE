@@ -1,0 +1,9 @@
+
+.sideBanner {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  top: 280px;
+  background-color: red;
+  color: #ffffff;
+}

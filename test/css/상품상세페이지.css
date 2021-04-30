@@ -1,0 +1,145 @@
+
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+legend {
+	font-size:1.2em;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+fieldset {
+	border:1px solid #c0c0c0;
+	padding:30px 20px 30px 30px;
+	margin-bottom:35px;
+}
+
+
+
+.field {
+	float:left;
+	width:60px;
+	font-weight:bold;
+	font-size:0.9em;
+	line-height: 55px;
+	text-align:right;
+	margin-right:15px;
+}
+
+.input-box {
+	width:350px;
+	height:35px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	padding:5px;
+	margin:10px 0;
+	float:left;	
+}
+
+.order {
+	width:50%;
+	padding:10px;
+	border:1px solid #aaa;
+	background:black;
+	font-size:14;
+	color: white;
+	font-weight:bold;
+}
+
+button {
+	float: left;
+}
+
+#start {
+    width:100%;
+    padding-left:  8px;
+    padding-right: 8px;           
+}
+
+#mainimg {
+
+padding-left: 20px;
+margin-top: 50px;
+
+}
+
+table {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+
+
+#container {
+	width:500px;
+	margin:10px auto;
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+#container h1 {
+	font-size: 30px;
+}
+
+
+
+#mainimg {
+
+    width: 100%;
+    height: auto;
+    
+  }
+
+  #mainimg img{
+         width: 650px;
+         margin-left: 150px;
+  }
+
+  form fieldset{
+	margin-bottom: 0px; 
+ }
+ form legend{
+	font-size:15px;
+	font-weight:600; 
+ }
+
+label.reg {
+	font-size:14px;
+	width: 55px;
+	color:black;
+	font-weight:bold;		
+	float:left;
+ }	 
+ 
+ form ul li{
+	list-style:none; 
+	margin: 15px 0;	
+	font-size:14px;	
+
+ }
+ #selectAll {
+	 cursor:pointer;
+ }
+
+
+ .productmoney {
+                font-weight: bold;
+                color:#DF0101;
+                font-size: 14px;
+				}
+
+
+
+
+
+

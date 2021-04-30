@@ -1,0 +1,107 @@
+BODY {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana, tahoma
+}
+
+TD {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana, tahoma
+}
+
+SELECT {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana, tahoma
+}
+
+DIV {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana, tahoma
+}
+
+FORM {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana, tahoma
+}
+
+TEXTAREA {
+	BORDER-RIGHT: 1px solid #999999;
+	BORDER-TOP: 1px solid #999999;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: 1px solid #999999;
+	COLOR: BLACK;
+	BORDER-BOTTOM: 1px solid #999999;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana;
+	BACKGROUND-COLOR: white
+}
+
+INPUT {
+	BORDER-RIGHT: 1px solid #999999;
+	BORDER-TOP: 1px solid #999999;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: 1px solid #999999;
+	COLOR: BLACK;
+	BORDER-BOTTOM: 1px solid #999999;
+	FONT-FAMILY: 占쏙옙占쏙옙, verdana;
+	HEIGHT: 19px;
+	BACKGROUND-COLOR: white
+}
+@font-face{
+	font-family:"NanumGothic";
+	src: url('font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+	     url('font/NanumGothic.woff') format('woff'), /*explorer 9遺��꽣 吏��썝�빐以�, �궗�뙆由�,�겕濡�,�삤�럹�씪,�뙆�씠�뼱�룺�뒪 吏��썝*/
+	     url("font/NanumGothic.ttf")format("truetype");
+	font-style:normal;
+	font-weight:normal;
+}
+
+@media (max-width: 1220px){
+	#wrapper{width: 95%;}
+	#header{width:95%;}
+	#content img{width:95%;}
+	#middle{width:95%;}
+	#footer{width:95%;}
+}
+
+
+@media (max-width: 768px){
+	#wrapper{width: 95%;}
+	#header{width:95%;}
+	#content img{width:95%;}
+	#middle{width:95%;}
+	#footer{width:95%;}
+}
+
+@media (max-width: 480px){
+	#wrapper{width: 95%;}
+	#header{width:95%;}
+	#content img{width:95%;}
+	#middle{width:95%;}
+	#footer{width:95%;}
+}
+A:link {
+	text-decoration: none;
+	color: #696969
+}
+
+A:hover {
+	text-decoration: yes;
+	color: #000000
+}
+
+A:visited {
+	text-decoration: none;
+	color: #000000
+}
+p{
+	font-size:18px;
+}

@@ -1,0 +1,13 @@
+#container {
+  width:100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#total {
+  border:none;
+  font-size:14px;
+  font-weight:bold;
+  margin-left: 20px;
+}
+

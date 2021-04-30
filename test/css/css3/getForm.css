@@ -1,0 +1,40 @@
+#container {
+	width:500px;
+	margin:10px auto;
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+#container2{
+	width:500px;
+	margin:10px auto;
+	float: right;
+	margin-right: 100px;
+}
+form fieldset{
+	margin-bottom:25px; 
+ }
+ form legend{
+	font-size:15px;
+	font-weight:600; 
+ }
+
+label.reg {
+	font-size:14px;
+	width:110px;
+	color:black;
+	font-weight:bold;		
+	float:left;
+	text-align:right;
+	margin-right:10px;
+ }	 
+ form ul li{
+	list-style:none; 
+	margin: 15px 0;	
+	font-size:14px;	
+
+ }
+ #selectAll {
+	 cursor:pointer;
+ }
