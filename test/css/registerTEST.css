@@ -1,0 +1,56 @@
+#container{
+	width:600px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+ul {
+	list-style:none;
+}
+ul li {
+	clear:both;
+}
+.field {
+	float:left;
+	width:100px;	
+	font-weight:bold;
+	font-size: 14px;
+	line-height: 55px;
+	text-align:right;
+	margin-right:15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	float:left;
+	width:350px;
+	height:35px;
+	border:1px solid gray;
+	border-radius:5px;
+	padding:5px;
+	margin:10px 0;
+	float:left;	
+}
+
+#buttons > li {
+	display:inline-block;
+}
+
+h3 {
+
+	padding-left: 220px;
+	padding-top: 30px;
+}
+
+
+#buttons {
+
+	width:150px;
+	height:40px;
+    margin: 70px 0 0 200px;
+	border:1px solid white;
+    background-color: yellow; 
+    color: white; 
+    font-size:14px; 
+    font-weight:bold;
+ 
+   }

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url("http://zzupd.dothome.co.kr/200528/cssReset/reset.css");
+
+
+/* 공통영역 시작 
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 공통영역 끝 */
+
+/* 가이드라인 시작 */
+/*
+div#wrap {
+    border: 1px solid #000;
+}
+*/
+/* 가이드라인 끝 */
+
+
+
+/* div#wrap 시작 */
+div#wrap {
+    width: 570px;
+    padding: 2px;
+    margin: 10px auto;
+}
+
+#wrap h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0 40px 0;
+
+}
+/* div#wrap 끝 */
+
+
+
+/* main#joinInfo 시작 */
+
+#joinInfo>div {
+    height: 48px;
+    padding-left: 20px;
+    border: 1px solid #aaa;
+}
+#joinInfo>div:not(:first-child) {
+    border-top: none;
+}
+#joinInfo>div>input {
+    width: 542px;
+    font-size: 13px;
+    height: 46px;
+
+    border: none;
+    outline: none;
+}
+#joinInfo>div>input::placeholder {
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/* select 생년월일 시작 */
+#joinInfo>div#memBirth {
+    line-height: 42px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#joinInfo>div#memBirth>select {
+    width: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 8px;
+    border: 1px solid #aaa;
+
+    -webkit-appearance: none;
+    /* 크롬 브라우저 용 */
+
+    background-image:url("../images/arrow.png");
+    background-position: 56px center;
+    background-repeat: no-repeat;
+}
+#joinInfo>div#memBirth>select::-ms-expand {
+    display : none;
+    /* IE 브라우저 용 */
+}
+#joinInfo>div#memBirth>select>option {
+    font-size: 16px;
+    display: inline-block;
+}
+/* select 생년월일 끝 */
+
+
+
+
+
+#joinInfo>div#memGender {
+    line-height: 46px;
+}
+
+#joinInfo>div#memGender>input[type=radio] {
+
+    width: 14px;
+    font-size: 13px;
+    height: 14px;    /* 46 */
+
+    /*border: 1px solid black;
+    outline: 1px solid black;*/
+}
+
+#joinInfo>div#memGender>span {
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    /*border: 1px solid #000;*/
+    position: relative;
+    left: -3px;
+    top: -2px;
+}
+#joinInfo>div#memGender>input:nth-child(3) {
+    margin-left: 20px;
+}
+
+#joinInfo>div button {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border: 1px solid white;
+    color: white;
+
+    background-color: black;
+}
+/* main#joinInfo 끝*/
+
+
+/* div#memberTerms 시작 */
+div#memberTerms {
+    margin-bottom: 20px;
+}
+div#memberTerms>h4 {
+    margin: 10px 4px;
+}
+div#memberTerms>iframe {
+    width: 660px;
+}
+/* div#memberTerms 끝 */
+
+
+/* div#confirm14 시작 */
+div#confirm14 {
+    margin: 20px 0 20px 5px;
+}
+div#confirm14>span {
+    color: #ff8000;
+    font-weight: bold;
+}
+div#confirm14>p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+/* div#confirm14 끝 */
+
+
+
+/* div#licenseAgree 시작 */
+div#licenseAgree {
+    margin-bottom: 20px;
+}
+div#licenseAgree>div {
+
+    padding-left: 20px;
+    border: 1px solid #aaa;
+}
+div#licenseAgree>div:first-child {
+    height: 48px;
+}
+#licenseAgree>div:not(:first-child) {
+    font-size: 14px;
+
+    padding-left: 40px;
+    border-top: none;
+}
+
+#licenseAgree>div#wholeAgree {
+    height: 48px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+#licenseAgree>div#eachAgree {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#licenseAgree td {
+    width: 260px;
+    padding: 4px 0;
+}
+/* div#licenseAgree 끝 */
+
+
+/* div#sbmBtnArea 시작 */
+div#sbmBtnArea {
+    text-align: center;
+}
+div#sbmBtnArea button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    background-color: #000;
+}
+/* div#sbmBtnArea 끝 */
+
+main, header, nav,
+aside, footer, section, address {
+    display: block;
+}
+
+
+
+
