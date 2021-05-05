@@ -8,7 +8,6 @@
     success : function(param_data) {
         const data = param_data["data"];
         var li = "";
-        alert(data[2]["category"]);
         
         for(var i =0; i < data.length; i++){
                 li+= "<ul id = product_item_ul>"
