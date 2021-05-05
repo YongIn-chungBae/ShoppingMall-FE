@@ -14,7 +14,6 @@ success : function(param_data) {
     var li = "";
     const idx_data = [];
 
-    alert(data)
     for(var i =0; i < data.length; i++){
             li += "<tr>"
             li += "<td>" + data[i]["idx"] + "</td>"
