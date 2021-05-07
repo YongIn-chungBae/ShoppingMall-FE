@@ -109,17 +109,17 @@
 
         <tr>
      <td colspan='4' height="500px">
-       <div id="mainimg"><img src="images/상세이미지800x800.png" size width="50%" height="auto" style = 'margin-top: 50px'>
+       <div id="mainimg"><!--<img src="images/상세이미지800x800.png" size width="50%" height="auto" style = 'margin-top: 50px'><-->
  
      </td>
    </tr>
  
  <div id="container">
-     <h1>나는야 축구왕 축구화 FG</h1>
-     <form name="testForm" action = "BuyProc.jsp" method = "post">
+     <!--<h1>나는야 축구왕 축구화 FG</h1><-->
+     <form name="testForm">
        <fieldset>
-         <ul>
-        <li>상품금액: <span class="productmoney">149,000원</span></li>
+         <ul class = "items" id = "product_detail_div">
+        <!--<li>상품금액: <span class="productmoney">149,000원</span></li>
         <li>스터드: FG (천연잔디용)</li>
         <li>색상: 레인보우 </li>
         <li>겉감: 합성가죽 / 안감: 100% 폴리에스터</li>
@@ -132,7 +132,7 @@
         <li>나는야 축구왕 축구화 FG는 속도감 있는 경기를 위해 태어났습니다. 나이키 
           에어로트랙 플레이트가 적용되어 잔디를 디디는 걸음마다 힘 있는
           접지력을 구현.
-        </li>
+        </li><-->
       </ul>
        </fieldset>
 
@@ -168,7 +168,7 @@
            </li>
          </ul>
  
-         <button onclick="shoppinglist(); return false;" type="submit" class="order" style="cursor: pointer;" >구매하기</button>
+         <button onclick="buy(); return false;" type="submit" class="order" style="cursor: pointer;" >구매하기</button>
  
          <button onclick="shoppinglist(); return false;" type="submit" class="order" style="cursor: pointer;" >장바구니 담기</button>
  
@@ -218,6 +218,7 @@
 </footer>
 
 <script type="text/javascript" src="js/사이드배너.js"></script>
+<script type="text/javascript" src="js/상품상세페이지.js"></script>
 
 </body>
 </html>

@@ -16,7 +16,7 @@
 
 .container button {
     margin-right: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 
@@ -46,4 +46,9 @@
     text-align: left;
     padding: 12px;
     color: black;
+  }
+
+  .cart_sum {
+    font-weight: bold;
+    float: left;
   }

@@ -235,8 +235,12 @@
       margin-top: 0;
   } /*네비바 자동 드롭다운*/
 
-  #product_item_ul {
+  .product_item_ul {
       float: left; 
       margin-left: 30px;
       margin-bottom: 100px;
+  }
+
+  .product_detail_ul {
+    color: red;
   }
