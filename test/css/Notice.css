@@ -16,7 +16,7 @@
 
 .container button {
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -34,6 +34,11 @@
 
   .notice_content textarea {
     height: 300px;
+  }
+
+  .QA_content textarea {
+    height: 300px;
+    margin-top: 0px;
   }
 
 

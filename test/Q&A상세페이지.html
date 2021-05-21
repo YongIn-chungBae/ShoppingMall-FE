@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나이키 풋볼 평촌점 | 회원가입</title>
+    <title>나이키 풋볼 평촌점 | Q&A</title>
     <link rel="shortcut icon" type="image/x-icon" href='images/검정나이키.png'>
 
+    <script type="text/javascript" src=js/bootstrap.js></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    
+    <link rel="stylesheet" href="css/Notice.css" />
+    <link rel = "stylesheet" href = "css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/register.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-    <script type="text/javascript" src="js/popup.js"></script>
-
-
+        
 </head>
+
 <body>
 
     <header>
@@ -106,123 +108,39 @@
         </div>
       </nav>
 
+<div class = "container">
+    <table class = "table table-striped">   
+        <h1>축구화 살 돈이 없는데 어떻게하죠?</h1>
+    </table>
 
-    <div id="wrap">
-        <h1>회원가입</h1>
-
-
-        <form id="joinFrm">
-
-
-            <main id="joinInfo">
-                <div id="memName">
-                    <input type="text" placeholder="이름"
-                    maxlength="30" name="uName" id="name">
-                </div>
-                <div id="memId">
-                    <input type="text" placeholder="아이디"
-                    maxlength="20" name="uId" id="id">
-                </div>
-                <div id="memPw">
-                    <input type="password" placeholder="비밀번호"
-                    maxlength="20" name="uPw" id="password">
-                </div>
-                <div id="memPw_Re">
-                    <input type="password" placeholder="비밀번호 확인"
-                     maxlength="20" id="uPw_Re">
-                </div>
-                <div id="memEmail">
-                    <input type="text" placeholder="이메일"
-                    maxlength="50" name="uEmail" id="email">
-                </div>
-                
-                
-            </main>
-            <!-- main#joinInfo 가입정보 -->
-
-
-
-            <div id="confirm14">
-                <input type="checkbox" name="confirm14Chkbox" id="confirm14Chkbox">
-                <span>14세 이상입니다. (필수)</span>
-
-                <br>
-                <p>
-                    *14세 미만은 회원가입이 불가능합니다.
-                </p>
-
-            </div>
-            <!-- div#confirm14 14세 이상 필수 체크-->
-
-
-            <div id="licenseAgree">
-
-                <div id="wholeAgree">
-                    <input type="checkbox" name="wholeAgreeChkBox"
-                    id="wholeAgreeChkBox" onclick="fnWholeChk()">
-                    <span>전체동의</span>
-                </div> <!-- div#wholeAgree 전체동의 -->
-                <div id="eachAgree">
-
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" id="chkBox_01" onclick="fnReverseChk()">
-                                    <span>이용약관</span>
-                                    <button type="button" onclick="showPopup1();">
-                                        확인
-                                    </button>
-                                </td>
-                                <td>
-                                    <input type="checkbox" id="chkBox_02" onclick="fnReverseChk()">
-                                    <span>개인정보처리방침</span>
-                                    <button type="button" onclick="showPopup2();">
-                                        확인
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" id="chkBox_03" onclick="fnReverseChk()">
-                                    <span>청소년보호정책</span>
-                                    <button type="button" onclick="showPopup3();">
-                                        확인
-                                    </button>
-                                </td>
-                                <td>
-                                    <input type="checkbox" id="chkBox_04" onclick="fnReverseChk()">
-                                    <span>스팸메일정책</span>
-                                    <button type="button" onclick="showPopup4();">
-                                        확인
-                                    </button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div> <!-- div#eachAgree 개별동의 -->
-
-            </div>
-            <!-- div#licenseAgree 정보동의-->
-
-            <div id="sbmBtnArea">
-                <button type="button" onclick="fnSbm()">
-                    회원가입
-                </button>
-            </div> <!-- div#sbmBtnArea -->
-
-
-        </form> <!-- form#joinFrm -->
+    <div class = "notice_view">
+      <p>축구화 살 돈이 없는데요.</p>
 
     </div>
-    <!-- div#wrap 끝 -->
-    <script src="js/RegisterCheck.js"></script>
 
-    <footer>
-        <div class = "box">
-            <ul id = "footer_menu">
-                
+    <div class = "form-row float-right">
+      <a href="Q&A.html"><button class = "btn btn-primary">목록</button></a>
+    </div>
+
+    <table class = "table table-striped">   
+      <h1>피드백 작성♥</h1>
+    </table>
+
+    <div class = "QA_content">
+      <textarea placeholder="피드백 내용 작성"></textarea>
+      </div>
+
+      <div class = "form-row float-right">
+      <button class = "btn btn-success">피드백</button>
+      </div>
+
+
+</div>
+
+<footer>
+    <div class = "box">
+        <ul id = "footer_menu">
+            
                 <h3>사업자 정보</h3>
                 <ul>
                     <li>사업자 등록번호 220-88-09068</li>
@@ -243,10 +161,10 @@
                 </ul>
 
                 <h3>ⓒ2021 Nike, Inc. All Rights Reserved</h3>
-                   
-             </ul>
+               
+         </ul>
 
-    </footer>
-    
+</footer>
+
 </body>
 </html>

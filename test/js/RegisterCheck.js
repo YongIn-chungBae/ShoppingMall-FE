@@ -1,8 +1,7 @@
 
-
-/* 생년월일 옵션(select option) 시작(필수) */
+/*
 fnBirthInit();     // Initialize 초기화
-    /* 출생년월일 초기화 시작 */
+     출생년월일 초기화 시작 
 function fnBirthInit() {
 
     var now = new Date();
@@ -17,7 +16,7 @@ function fnBirthInit() {
 
     }
     document.getElementById("birthYear").innerHTML = yearOptTag;
-    /* 출생년도 끝 */
+    /* 출생년도 끝 
 
 
     var monthOptTag = "<option id='monthDelOpt'>월</option>";
@@ -25,7 +24,7 @@ function fnBirthInit() {
         monthOptTag += "<option>"+ i + "</option>";
     }
     document.getElementById("birthMonth").innerHTML = monthOptTag;
-    /* 출생 월 끝 */
+    /* 출생 월 끝 
 
 
     var dateOptTag = "<option id='dateDelOpt'>일</option>";
@@ -33,12 +32,11 @@ function fnBirthInit() {
         dateOptTag += "<option>"+ i + "</option>";
     }
     document.getElementById("birthDate").innerHTML = dateOptTag;
-    /* 출생 일 끝 */
+    /* 출생 일 끝 
 
 
 }
-    /* 출생년월일 초기화 끝(필수) */
-
+    /* 출생년월일 초기화 끝(필수) 
 
 
 function fnDelMonthOpt() {
@@ -57,7 +55,7 @@ function fnDelDateOpt() {
 
 }
 
-    /* 월별 마지막 날짜 표시 시작 */
+    /* 월별 마지막 날짜 표시 시작 
 function fnEndDate() {
 
 
@@ -88,7 +86,7 @@ function fnEndDate() {
     /* 월별 마지막 날짜 표시 끝 */
 
 
-   /* 년도 변경시 월, 일 초기화 시작 */
+   /* 년도 변경시 월, 일 초기화 시작 
 function fnReset() {
 
     var monthOptTag = "<option id='monthDelOpt'>월</option>";
@@ -96,7 +94,7 @@ function fnReset() {
         monthOptTag += "<option>"+ i + "</option>";
     }
     document.getElementById("birthMonth").innerHTML = monthOptTag;
-    /* 출생 월 끝 */
+    /* 출생 월 끝 
 
 
     var dateOptTag = "<option id='dateDelOpt'>일</option>";
@@ -104,12 +102,11 @@ function fnReset() {
         dateOptTag += "<option>"+ i + "</option>";
     }
     document.getElementById("birthDate").innerHTML = dateOptTag;
-    /* 출생 일 끝 */
+    /* 출생 일 끝 
 }
-   /* 년도 변경시 월, 일 초기화 끝 */
+   /* 년도 변경시 월, 일 초기화 끝 
 
-
-/* 생년월일 옵션(select option) 끝 */
+ 생년월일 옵션(select option) 끝 */
 
 
 
@@ -151,19 +148,19 @@ function fnSbm() {
     /* 이름, 아이디, 비밀번호,
           이메일, 14세 이상 체크, 전체동의   */
 
-    var uName = document.getElementById("uName");
+    var uName = document.getElementById("name");
     var uNameVal = uName.value;
     uNameVal = uNameVal.trim();
 
-    var uId = document.getElementById("uId");
+    var uId = document.getElementById("id");
     var uIdVal = uId.value;
     uIdVal = uIdVal.trim();
 
-    var uPw = document.getElementById("uPw");
+    var uPw = document.getElementById("password");
     var uPwVal = uPw.value;
     uPwVal= uPwVal.trim();
 
-    var uEmail = document.getElementById("uEmail");
+    var uEmail = document.getElementById("email");
     var uEmailVal = uEmail.value;
     uEmailVal= uEmailVal.trim();
     /* 여기까지 value가 공백이 아닐때 전송가능함 */
@@ -197,8 +194,8 @@ function fnSbm() {
         var userConfirm = confirm("회원가입하시겠습니까?");
 
         if (userConfirm) {
-            joinFrm.action = "https://www.google.com";
-            joinFrm.submit();
+            // joinFrm.submit();
+            signUp();
         } else {
             alert("사용자가 회원가입을 취소하셨습니다.");
         }
@@ -210,7 +207,43 @@ function fnSbm() {
 
 
 
+function signUp(){
+    const id = document.getElementById("id").value;
+    const name = document.getElementById("name").value;
+    const password = document.getElementById("password").value;
+    const email = document.getElementById("email").value;
 
+    var data = {
+        "id": id,
+        "name": name,
+        "password": password,
+        "email": email
+    };
+
+    alert(id);
+
+    $.ajax({
+        type: "POST",
+        crossOrigin : true,
+        dataType : "json",
+        contentType: 'application/json',
+        url : "http://01a7cd245d63.ngrok.io/sign-up",
+        data: 
+            JSON.stringify(data)
+        ,
+    
+    success : function() {
+        alert("성공이다아ㅏ");
+
+        
+        
+    },
+    error: function(response){
+        alert("에러나요오"+response[0])
+    }
+    })
+    
+}
 
 
 
